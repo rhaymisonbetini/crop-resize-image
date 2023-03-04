@@ -76,7 +76,9 @@ It takes the following parameters.
 Original
 ![alt text](https://github.com/rhaymisonbetini/crop-resize-image/blob/main/src/assets/C-6YxPlXsAQ7z1M.jpg)
 
-#croped
+<br/>
+
+Croped
 ![alt text](https://github.com/rhaymisonbetini/crop-resize-image/blob/main/src/assets/croped.jpg)
 
 
@@ -103,8 +105,8 @@ It takes the following parameters.
 
 Original
 ![alt text](https://github.com/rhaymisonbetini/crop-resize-image/blob/main/src/assets/C-6YxPlXsAQ7z1M.jpg)
-
-#resized
+<br/>
+resized
 ![alt text](https://github.com/rhaymisonbetini/crop-resize-image/blob/main/src/assets/resized.jpg)
 
 The return of our library will be an object with the element in base64.
