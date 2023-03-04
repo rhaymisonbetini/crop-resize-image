@@ -48,8 +48,6 @@ Using the model above, we will activate our library with the "DoSomethingWithMyI
 ```javascript
   async DoSomethingWithMyImage() {
       let cropResizer = new CropResizer();
-      let returnOfFunction =  await cropResizer.crop("img", 0, 0, 200, 200, true);
-      let returnOfFunction = await cropResizer.resize("img", 200, 200, true);
     },
 ```
 
@@ -75,6 +73,12 @@ It takes the following parameters.
   }
 ```
 
+Original
+![alt text](https://github.com/rhaymisonbetini/crop-resize-image/blob/main/src/assets/C-6YxPlXsAQ7z1M.jpg)
+
+#croped
+![alt text](https://github.com/rhaymisonbetini/crop-resize-image/blob/main/src/assets/croped.jpg)
+
 
 #### THE RESIZE METHOD
 
@@ -96,6 +100,12 @@ It takes the following parameters.
       let returnOfFunction = await cropResizer.resize("img", 200, 200, true);
   }
 ```
+
+Original
+![alt text](https://github.com/rhaymisonbetini/crop-resize-image/blob/main/src/assets/C-6YxPlXsAQ7z1M.jpg)
+
+#resized
+![alt text](https://github.com/rhaymisonbetini/crop-resize-image/blob/main/src/assets/resized.jpg)
 
 The return of our library will be an object with the element in base64.
 with this bas4 you can create a link tag to download element, send to banck end and etc...
