@@ -14,7 +14,7 @@ class CropResizer {
      * @param {number} newWidth 
      * @param {number} newHeight 
      * @param {number} displayCanvas 
-     * @returns {Promise}
+     * @returns {Promise<string>}
      */
     crop(imageTag, newX, newY, newWidth, newHeight, displayCanvas = false) {
         return new Promise((resolve, reject) => {
@@ -49,7 +49,7 @@ class CropResizer {
      * @param {number} newWidth 
      * @param {number} newHeight 
      * @param {number} displayCanvas 
-     * @returns {Promise}
+     * @returns {Promise<string>}
      */
     resize(imageTag, newWidth, newHeight, displayCanvas = false) {
 
