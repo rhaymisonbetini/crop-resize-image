@@ -1,0 +1,26 @@
+{
+  "name": "crop-resize-image",
+  "version": "1.0.0",
+  "description": "This package cuts and resizes images in an easy and dynamic way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhaymisonbetini/crop-resize-image.git"
+  },
+  "keywords": [
+    "javascript",
+    "image",
+    "resize",
+    "crop",
+    "html"
+  ],
+  "author": "rhaymisonbetini <rhaymisoncristian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhaymisonbetini/crop-resize-image/issues"
+  },
+  "homepage": "https://github.com/rhaymisonbetini/crop-resize-image#readme"
+}
