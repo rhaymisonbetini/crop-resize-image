@@ -1,6 +1,6 @@
 {
   "name": "crop-resize-image",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package cuts and resizes images in an easy and dynamic way.",
   "main": "index.js",
   "scripts": {
